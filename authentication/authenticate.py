@@ -63,6 +63,10 @@ class Auth:
         with open(self.address, 'w') as json_file:
             json.dump(token_dict, json_file, indent=4)
         print(token_dict)
+
+    def sanity_check(self):
+        "Some sanity check will be written"
+        pass
         
             
                 
